@@ -1,3 +1,6 @@
+# repo
+https://github.com/pleabargain/who-wants-to-learn-English-with-ollama-and-python
+
 # Who Wants to be a Millionaire - English Learning Game
 
 A terminal-based game inspired by "Who Wants to be a Millionaire" that helps users improve their English language skills through an engaging quiz format. The game uses Ollama to generate unique, challenging questions covering various aspects of English language usage.
