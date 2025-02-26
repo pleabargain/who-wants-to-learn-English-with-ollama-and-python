@@ -1,0 +1,64 @@
+{
+    "player_name": "a",
+    "timestamp": "20250226-132640",
+    "model_used": "llama3.2",
+    "final_money": 0,
+    "questions_asked": [
+        {
+            "question_num": 1,
+            "question": "What does the informal phrase 'break a leg' actually mean?",
+            "options": [
+                "A. Good luck",
+                "B. Take a rest",
+                "C. Get hurt badly",
+                "D. Be extremely successful"
+            ],
+            "user_answer": "A",
+            "correct_answer": "A",
+            "explanation": "The phrase 'break a leg' is an idiomatic expression used to wish someone good luck, particularly in the context of performing arts or competitive endeavors.",
+            "topic": "Slang - Everyday Usage",
+            "amount_won": 100
+        },
+        {
+            "question_num": 2,
+            "question": "What does the idiom 'break a leg' actually mean?",
+            "options": [
+                "A. Good luck",
+                "B. Take two steps forward and one step back",
+                "C. To fail miserably",
+                "D. To succeed greatly"
+            ],
+            "user_answer": "A",
+            "correct_answer": "A",
+            "explanation": "The idiom 'break a leg' is a common expression used to wish someone good luck, especially before a performance or challenging situation. Despite its literal meaning, which might seem unfortunate, it's actually a way of expressing support and encouragement.",
+            "topic": "Idioms - Common Expressions",
+            "amount_won": 200
+        },
+        {
+            "question_num": 3,
+            "question": "What does the idiom 'It's raining cats and dogs' literally mean?",
+            "options": [
+                "A. The sky is dark and stormy.",
+                "B. It's a beautiful sunny day.",
+                "C. There are animals falling from the sky.",
+                "D. Nothing is happening."
+            ],
+            "user_answer": "A",
+            "correct_answer": "C",
+            "explanation": "The idiom 'It's raining cats and dogs' does not mean that actual cats and dogs are falling from the sky, but rather it's a metaphor for heavy rain or a storm. The phrase originated in medieval times when heavy rain caused the streets to flood, washing away dead animals and debris.",
+            "topic": "Idioms - Figurative Language",
+            "amount_won": 0
+        }
+    ],
+    "game_over": true,
+    "used_topics": [
+        "Idioms - Figurative Language",
+        "Slang - Everyday Usage",
+        "Idioms - Common Expressions"
+    ],
+    "used_questions": [
+        "What does the idiom 'It's raining cats and dogs' literally mean?",
+        "What does the informal phrase 'break a leg' actually mean?",
+        "What does the idiom 'break a leg' actually mean?"
+    ]
+}

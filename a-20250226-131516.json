@@ -1,0 +1,24 @@
+{
+    "player_name": "a",
+    "timestamp": "20250226-131516",
+    "model_used": "llama3.2",
+    "final_money": 0,
+    "questions_asked": [
+        {
+            "question_num": 1,
+            "question": "What is the correct spelling?",
+            "options": [
+                "A. Accomodate",
+                "B. Acommodate",
+                "C. Accommodate",
+                "D. Acomodate"
+            ],
+            "user_answer": "A",
+            "correct_answer": "C",
+            "explanation": "'Accommodate' is the correct spelling with two 'c's and two 'm's.",
+            "topic": "Grammar - Basic",
+            "amount_won": 0
+        }
+    ],
+    "game_over": true
+}

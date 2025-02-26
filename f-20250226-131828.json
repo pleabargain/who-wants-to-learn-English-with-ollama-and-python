@@ -1,0 +1,54 @@
+{
+    "player_name": "f",
+    "timestamp": "20250226-131828",
+    "model_used": "llama3.2",
+    "final_money": 300,
+    "questions_asked": [
+        {
+            "question_num": 1,
+            "question": "Which of the following is a correct sentence?",
+            "options": [
+                "A. I have been to Paris last year.",
+                "B. I went to Paris last year.",
+                "C. I have went to Paris last year.",
+                "D. I had been going to Paris last year."
+            ],
+            "user_answer": "B",
+            "correct_answer": "B",
+            "explanation": "When using a specific time in the past (last year), the simple past tense is correct. 'I went to Paris last year' is grammatically correct.",
+            "topic": "Grammar - Basic",
+            "amount_won": 100
+        },
+        {
+            "question_num": 2,
+            "question": "Which word is a synonym for 'happy'?",
+            "options": [
+                "A. Sad",
+                "B. Angry",
+                "C. Joyful",
+                "D. Tired"
+            ],
+            "user_answer": "C",
+            "correct_answer": "C",
+            "explanation": "'Joyful' means full of joy or happiness, making it a synonym for 'happy'.",
+            "topic": "Grammar - Basic",
+            "amount_won": 200
+        },
+        {
+            "question_num": 3,
+            "question": "Which of these is a correct use of the semicolon?",
+            "options": [
+                "A. I went to the store; and bought milk.",
+                "B. I went to the store; I bought milk.",
+                "C. I went to the store, I bought milk.",
+                "D. I went to the store; because I needed milk."
+            ],
+            "user_answer": "B",
+            "correct_answer": "B",
+            "explanation": "A semicolon is used to join two independent clauses without a conjunction. Option B correctly uses the semicolon to join two complete sentences.",
+            "topic": "Grammar - Basic",
+            "amount_won": 300
+        }
+    ],
+    "game_over": true
+}

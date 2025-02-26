@@ -1,0 +1,39 @@
+{
+    "player_name": "d",
+    "timestamp": "20250226-130856",
+    "model_used": "llama3.2",
+    "final_money": 200,
+    "questions_asked": [
+        {
+            "question_num": 1,
+            "question": "What does 'break a leg' actually mean, despite its literal opposite meaning?",
+            "options": [
+                "A) Good luck and encouragement",
+                "B) You're doing something you want to avoid",
+                "C) The speaker is about to tell the audience the truth",
+                "D) It's an idiomatic way of saying 'I'm tired'"
+            ],
+            "user_answer": "A",
+            "correct_answer": "A",
+            "explanation": "This phrase, commonly used in theater and performance contexts, actually means 'good luck.' Despite its opposite meaning, it is believed to have originated from a superstition that wishing someone 'good luck' could actually bring bad luck. Over time, the phrase evolved into a supportive expression.",
+            "topic": "Slang - Everyday Usage",
+            "amount_won": 100
+        },
+        {
+            "question_num": 2,
+            "question": "Which of the following is a correct sentence?",
+            "options": [
+                "A. I have been to Paris last year.",
+                "B. I went to Paris last year.",
+                "C. I have went to Paris last year.",
+                "D. I had been going to Paris last year."
+            ],
+            "user_answer": "B",
+            "correct_answer": "B",
+            "explanation": "When using a specific time in the past (last year), the simple past tense is correct. 'I went to Paris last year' is grammatically correct.",
+            "topic": "Idioms - Figurative Language",
+            "amount_won": 200
+        }
+    ],
+    "game_over": false
+}

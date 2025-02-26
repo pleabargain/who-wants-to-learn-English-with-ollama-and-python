@@ -1,0 +1,30 @@
+{
+    "player_name": "e",
+    "timestamp": "20250226-132411",
+    "model_used": "llama3.2",
+    "final_money": 0,
+    "questions_asked": [
+        {
+            "question_num": 1,
+            "question": "In the sentence 'She has been studying English for five years', what is the correct form of the verb 'to study' in this context?",
+            "options": [
+                "A. Has studied",
+                "B. Studies",
+                "C. Studied",
+                "D. Will study"
+            ],
+            "user_answer": "A",
+            "correct_answer": "C",
+            "explanation": "The sentence uses the past perfect tense, which is used to describe an action that happened before another action in the past. In this case, 'She has been studying English for five years' indicates that the action of studying started before the period of five years and continued up until then. The correct form of the verb 'to study' is therefore 'studied', which agrees with the subject 'has' in terms of tense.",
+            "topic": "Grammar - Verb Tenses",
+            "amount_won": 0
+        }
+    ],
+    "game_over": true,
+    "used_topics": [
+        "Grammar - Verb Tenses"
+    ],
+    "used_questions": [
+        "In the sentence 'She has been studying English for five years', what is the correct form of the verb 'to study' in this context?"
+    ]
+}

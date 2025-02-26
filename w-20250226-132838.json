@@ -1,0 +1,64 @@
+{
+    "player_name": "w",
+    "timestamp": "20250226-132838",
+    "model_used": "llama3.2",
+    "final_money": 0,
+    "questions_asked": [
+        {
+            "question_num": 1,
+            "question": "What is the correct spelling of the word that means 'a person who travels through space'?",
+            "options": [
+                "A. Astronome",
+                "B. Astronaut",
+                "C. Astrologer",
+                "D. Astronomer"
+            ],
+            "user_answer": "B",
+            "correct_answer": "B",
+            "explanation": "The word that means 'a person who travels through space' is indeed 'astronaut'. It's a homophone of 'astronomer', which refers to a person who studies celestial objects and phenomena.",
+            "topic": "Vocabulary - Homophones",
+            "amount_won": 100
+        },
+        {
+            "question_num": 2,
+            "question": "What does the phrase 'call off' typically mean?",
+            "options": [
+                "A. To officially cancel an event",
+                "B. To start a conversation with someone",
+                "C. To invite people to a party",
+                "D. To make a complaint about something"
+            ],
+            "user_answer": "A",
+            "correct_answer": "A",
+            "explanation": "The phrase 'call off' typically means to officially cancel or postpone an event, such as a meeting, competition, or celebration.",
+            "topic": "Phrasal Verbs - Common Combinations",
+            "amount_won": 200
+        },
+        {
+            "question_num": 3,
+            "question": "What is the correct form of the adjective 'friendly' when describing a place or atmosphere?",
+            "options": [
+                "A. Friendly",
+                "B. Friendlier",
+                "C. Friendliest",
+                "D. Freundliness"
+            ],
+            "user_answer": "A",
+            "correct_answer": "B",
+            "explanation": "The suffix '-erly' is used to form the comparative form of an adjective, making 'friendlier' the correct choice. The prefix 'un-' would indicate a decrease in quality, but that's not the case here.",
+            "topic": "Word Formation - Prefixes and Suffixes",
+            "amount_won": 0
+        }
+    ],
+    "game_over": true,
+    "used_topics": [
+        "Vocabulary - Homophones",
+        "Word Formation - Prefixes and Suffixes",
+        "Phrasal Verbs - Common Combinations"
+    ],
+    "used_questions": [
+        "What is the correct form of the adjective 'friendly' when describing a place or atmosphere?",
+        "What does the phrase 'call off' typically mean?",
+        "What is the correct spelling of the word that means 'a person who travels through space'?"
+    ]
+}

@@ -1,0 +1,992 @@
+2025-02-26 13:08:56,567 - millionaire_game - INFO - New game started for player: d
+2025-02-26 13:08:56,567 - millionaire_game - INFO - Generating question on topic: Slang - Everyday Usage
+2025-02-26 13:09:02,903 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-02-26 13:09:12,622 - millionaire_game - INFO - Game session saved to d-20250226-130856.json
+2025-02-26 13:09:17,663 - millionaire_game - INFO - Generating question on topic: Idioms - Figurative Language
+2025-02-26 13:09:25,677 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-02-26 13:09:25,678 - millionaire_game - ERROR - Failed to parse JSON from Ollama response: Here's a "Who Wants to be a Millionaire" style multiple-choice question on idioms:
+
+```json
+{
+  "question": "What does the idiom 'Bite off more than you can chew' mean?",
+  "options": [
+    {"label": A, "text": "To take on fewer responsibilities than you are capable of"},
+    {"label": B, "text": "To accept a challenge that is beyond your skills or abilities"},
+    {"label": C, "text": "To avoid doing something you don't want to do"},
+    {"label": D, "text": "To finish what you start"}
+  ],
+  "correct_answer": A,
+  "explanation": "This idiom means to take on more responsibilities or tasks than you are capable of handling. It is often used to advise someone not to overcommit themselves."
+}
+```
+
+In this question, option B (Bite off more than you can chew) is the correct answer because it directly corresponds with the common understanding and usage of the idiom. Options A, C, and D provide plausible but incorrect distractors that may test contestants' knowledge and critical thinking skills.
+
+The phrase "Bite off more than you can chew" originated in the mid-19th century, when it was used to describe someone who had taken on too much work or responsibility, much like a person trying to eat more food than their stomach can handle. Over time, the idiom has evolved into its current form, but its meaning remains the same: to overcommit oneself.
+
+This type of question requires contestants to demonstrate their understanding of English language idioms and figurative language, making it an appropriate challenge for "Who Wants to be a Millionaire" on this topic.
+2025-02-26 13:09:25,678 - millionaire_game - ERROR - Failed to extract valid JSON from Ollama response: Here's a "Who Wants to be a Millionaire" style multiple-choice question on idioms:
+
+```json
+{
+  "question": "What does the idiom 'Bite off more than you can chew' mean?",
+  "options": [
+    {"label": A, "text": "To take on fewer responsibilities than you are capable of"},
+    {"label": B, "text": "To accept a challenge that is beyond your skills or abilities"},
+    {"label": C, "text": "To avoid doing something you don't want to do"},
+    {"label": D, "text": "To finish what you start"}
+  ],
+  "correct_answer": A,
+  "explanation": "This idiom means to take on more responsibilities or tasks than you are capable of handling. It is often used to advise someone not to overcommit themselves."
+}
+```
+
+In this question, option B (Bite off more than you can chew) is the correct answer because it directly corresponds with the common understanding and usage of the idiom. Options A, C, and D provide plausible but incorrect distractors that may test contestants' knowledge and critical thinking skills.
+
+The phrase "Bite off more than you can chew" originated in the mid-19th century, when it was used to describe someone who had taken on too much work or responsibility, much like a person trying to eat more food than their stomach can handle. Over time, the idiom has evolved into its current form, but its meaning remains the same: to overcommit oneself.
+
+This type of question requires contestants to demonstrate their understanding of English language idioms and figurative language, making it an appropriate challenge for "Who Wants to be a Millionaire" on this topic.
+2025-02-26 13:11:51,703 - millionaire_game - INFO - Game session saved to d-20250226-130856.json
+2025-02-26 13:11:57,616 - millionaire_game - INFO - Generating question on topic: Vocabulary - Homophones
+2025-02-26 13:12:04,232 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-02-26 13:12:04,233 - millionaire_game - CRITICAL - Unexpected error: can only concatenate str (not "dict") to str
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\who wants to learn English with ollama and python\main.py", line 427, in <module>
+    main()
+  File "C:\Users\denni\Documents\who wants to learn English with ollama and python\main.py", line 382, in main
+    game.display_question(question_data)
+  File "C:\Users\denni\Documents\who wants to learn English with ollama and python\main.py", line 169, in display_question
+    print(Fore.CYAN + option)
+          ~~~~~~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "dict") to str
+2025-02-26 13:15:16,385 - millionaire_game - INFO - New game started for player: a
+2025-02-26 13:15:16,386 - millionaire_game - ERROR - Error generating question: Invalid format specifier ' "What is the past tense of 'go'?",
+              "options": [
+                "A. Goed",
+                "B. Went",
+                "C. Gone",
+                "D. Going"
+              ],
+              "correct_answer": "B",
+              "explanation": "The irregular past tense of 'go' is 'went'."
+            ' for object of type 'str'
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\who wants to learn English with ollama and python\main.py", line 104, in generate_question
+    {
+ValueError: Invalid format specifier ' "What is the past tense of 'go'?",
+              "options": [
+                "A. Goed",
+                "B. Went",
+                "C. Gone",
+                "D. Going"
+              ],
+              "correct_answer": "B",
+              "explanation": "The irregular past tense of 'go' is 'went'."
+            ' for object of type 'str'
+2025-02-26 13:15:16,387 - millionaire_game - INFO - Using fallback question for topic: Grammar - Basic
+2025-02-26 13:15:22,143 - millionaire_game - DEBUG - User answer: A, Correct answer: C
+2025-02-26 13:15:22,145 - millionaire_game - INFO - Game session saved to a-20250226-131516.json
+2025-02-26 13:18:28,440 - millionaire_game - INFO - New game started for player: f
+2025-02-26 13:18:28,440 - millionaire_game - ERROR - Error generating question: Invalid format specifier ' "What is the past tense of 'go'?",
+              "options": [
+                "A. Goed",
+                "B. Went",
+                "C. Gone",
+                "D. Going"
+              ],
+              "correct_answer": "B",
+              "explanation": "The irregular past tense of 'go' is 'went'."
+            ' for object of type 'str'
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\who wants to learn English with ollama and python\main.py", line 104, in generate_question
+    {
+ValueError: Invalid format specifier ' "What is the past tense of 'go'?",
+              "options": [
+                "A. Goed",
+                "B. Went",
+                "C. Gone",
+                "D. Going"
+              ],
+              "correct_answer": "B",
+              "explanation": "The irregular past tense of 'go' is 'went'."
+            ' for object of type 'str'
+2025-02-26 13:18:28,441 - millionaire_game - INFO - Using fallback question for topic: Grammar - Basic
+2025-02-26 13:18:36,783 - millionaire_game - DEBUG - User answer: B, Correct answer: B
+2025-02-26 13:18:36,785 - millionaire_game - INFO - Game session saved to f-20250226-131828.json
+2025-02-26 13:18:39,424 - millionaire_game - ERROR - Error generating question: Invalid format specifier ' "What is the past tense of 'go'?",
+              "options": [
+                "A. Goed",
+                "B. Went",
+                "C. Gone",
+                "D. Going"
+              ],
+              "correct_answer": "B",
+              "explanation": "The irregular past tense of 'go' is 'went'."
+            ' for object of type 'str'
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\who wants to learn English with ollama and python\main.py", line 104, in generate_question
+    {
+ValueError: Invalid format specifier ' "What is the past tense of 'go'?",
+              "options": [
+                "A. Goed",
+                "B. Went",
+                "C. Gone",
+                "D. Going"
+              ],
+              "correct_answer": "B",
+              "explanation": "The irregular past tense of 'go' is 'went'."
+            ' for object of type 'str'
+2025-02-26 13:18:39,425 - millionaire_game - INFO - Using fallback question for topic: Grammar - Basic
+2025-02-26 13:18:46,079 - millionaire_game - DEBUG - User answer: C, Correct answer: C
+2025-02-26 13:18:46,081 - millionaire_game - INFO - Game session saved to f-20250226-131828.json
+2025-02-26 13:18:48,593 - millionaire_game - ERROR - Error generating question: Invalid format specifier ' "What is the past tense of 'go'?",
+              "options": [
+                "A. Goed",
+                "B. Went",
+                "C. Gone",
+                "D. Going"
+              ],
+              "correct_answer": "B",
+              "explanation": "The irregular past tense of 'go' is 'went'."
+            ' for object of type 'str'
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\who wants to learn English with ollama and python\main.py", line 104, in generate_question
+    {
+ValueError: Invalid format specifier ' "What is the past tense of 'go'?",
+              "options": [
+                "A. Goed",
+                "B. Went",
+                "C. Gone",
+                "D. Going"
+              ],
+              "correct_answer": "B",
+              "explanation": "The irregular past tense of 'go' is 'went'."
+            ' for object of type 'str'
+2025-02-26 13:18:48,594 - millionaire_game - INFO - Using fallback question for topic: Grammar - Basic
+2025-02-26 13:18:58,567 - millionaire_game - DEBUG - User answer: B, Correct answer: B
+2025-02-26 13:18:58,569 - millionaire_game - INFO - Game session saved to f-20250226-131828.json
+2025-02-26 13:19:03,304 - millionaire_game - ERROR - Error generating question: Invalid format specifier ' "What is the past tense of 'go'?",
+              "options": [
+                "A. Goed",
+                "B. Went",
+                "C. Gone",
+                "D. Going"
+              ],
+              "correct_answer": "B",
+              "explanation": "The irregular past tense of 'go' is 'went'."
+            ' for object of type 'str'
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\who wants to learn English with ollama and python\main.py", line 104, in generate_question
+    {
+ValueError: Invalid format specifier ' "What is the past tense of 'go'?",
+              "options": [
+                "A. Goed",
+                "B. Went",
+                "C. Gone",
+                "D. Going"
+              ],
+              "correct_answer": "B",
+              "explanation": "The irregular past tense of 'go' is 'went'."
+            ' for object of type 'str'
+2025-02-26 13:19:03,305 - millionaire_game - INFO - Using fallback question for topic: Grammar - Basic
+2025-02-26 13:23:53,673 - millionaire_game - INFO - Game session saved to f-20250226-131828.json
+2025-02-26 13:24:11,809 - millionaire_game - INFO - New game started for player: e
+2025-02-26 13:24:11,810 - millionaire_game - INFO - Generating question on topic: Grammar - Verb Tenses
+2025-02-26 13:24:11,810 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-02-26 13:24:11,810 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028610BE4F50>
+2025-02-26 13:24:11,814 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-26 13:24:11,815 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-26 13:24:11,815 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-26 13:24:11,816 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-26 13:24:11,816 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-26 13:24:18,996 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 26 Feb 2025 09:24:18 GMT'), (b'Content-Length', b'1188')])
+2025-02-26 13:24:18,997 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-02-26 13:24:18,997 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-26 13:24:18,997 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-26 13:24:18,997 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-26 13:24:18,997 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-26 13:24:18,997 - millionaire_game - DEBUG - Raw response from Ollama: Here's a multiple-choice question for 'Who Wants to be a Millionaire' that tests English language proficiency, focusing on verb tenses:
+
+```json
+{
+  "question": "In the sentence 'She has been studying English for five years', what is the correct form of the verb 'to study' in this context?",
+  "options": [
+    "A. Has studied",
+    "B. Studies",
+    "C. Studied",
+    "D. Will study"
+  ],
+  "correct_answer": "C",
+  "explanation": "The sentence uses the past perfect tense, which is used to describe an action that happened before another action in the past. In this case, 'She has been studying English for five years' indicates that the action of studying started before the period of five years and continued up until then. The correct form of the verb 'to study' is therefore 'studied', which agrees with the subject 'has' in terms of tense."
+}
+```
+2025-02-26 13:24:18,997 - millionaire_game - DEBUG - Attempting to parse JSON: {
+  "question": "In the sentence 'She has been studying English for five years', what is the correct form of the verb 'to study' in this context?",
+  "options": [
+    "A. Has studied",
+    "B. Studies",
+    "C. Studied",
+    "D. Will study"
+  ],
+  "correct_answer": "C",
+  "explanation": "The sentence uses the past perfect tense, which is used to describe an action that happened before another action in the past. In this case, 'She has been studying English for five years' indicates that the action of studying started before the period of five years and continued up until then. The correct form of the verb 'to study' is therefore 'studied', which agrees with the subject 'has' in terms of tense."
+}
+2025-02-26 13:24:18,997 - millionaire_game - DEBUG - Normalized question data: {'question': "In the sentence 'She has been studying English for five years', what is the correct form of the verb 'to study' in this context?", 'options': ['A. Has studied', 'B. Studies', 'C. Studied', 'D. Will study'], 'correct_answer': 'C', 'explanation': "The sentence uses the past perfect tense, which is used to describe an action that happened before another action in the past. In this case, 'She has been studying English for five years' indicates that the action of studying started before the period of five years and continued up until then. The correct form of the verb 'to study' is therefore 'studied', which agrees with the subject 'has' in terms of tense.", 'topic': 'Grammar - Verb Tenses'}
+2025-02-26 13:24:42,921 - millionaire_game - DEBUG - User answer: A, Correct answer: C
+2025-02-26 13:24:42,922 - millionaire_game - INFO - Game session saved to e-20250226-132411.json
+2025-02-26 13:25:21,680 - millionaire_game - INFO - New game started for player: d
+2025-02-26 13:25:21,682 - millionaire_game - INFO - Generating question on topic: Vocabulary - Antonyms
+2025-02-26 13:25:21,682 - httpcore.connection - DEBUG - close.started
+2025-02-26 13:25:21,683 - httpcore.connection - DEBUG - close.complete
+2025-02-26 13:25:21,683 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-02-26 13:25:21,683 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028610BE6FC0>
+2025-02-26 13:25:21,683 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-26 13:25:21,684 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-26 13:25:21,684 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-26 13:25:21,684 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-26 13:25:21,684 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-26 13:25:24,978 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 26 Feb 2025 09:25:24 GMT'), (b'Content-Length', b'726')])
+2025-02-26 13:25:24,979 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-02-26 13:25:24,979 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-26 13:25:24,980 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-26 13:25:24,980 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-26 13:25:24,980 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-26 13:25:24,981 - millionaire_game - DEBUG - Raw response from Ollama: ```
+{
+  "question": "What does the word 'fastidious' mean?",
+  "options": [
+    "A. Fast and furious",
+    "B. Meticulous and demanding in one's standards",
+    "C. Quick and easy",
+    "D. Expensive and luxurious"
+  ],
+  "correct_answer": "B",
+  "explanation": "Fastidious refers to being meticulous and having high standards, often to the point of being overly critical or perfectionistic."
+}
+```
+2025-02-26 13:25:24,981 - millionaire_game - DEBUG - Attempting to parse JSON: {
+  "question": "What does the word 'fastidious' mean?",
+  "options": [
+    "A. Fast and furious",
+    "B. Meticulous and demanding in one's standards",
+    "C. Quick and easy",
+    "D. Expensive and luxurious"
+  ],
+  "correct_answer": "B",
+  "explanation": "Fastidious refers to being meticulous and having high standards, often to the point of being overly critical or perfectionistic."
+}
+2025-02-26 13:25:24,981 - millionaire_game - DEBUG - Normalized question data: {'question': "What does the word 'fastidious' mean?", 'options': ['A. Fast and furious', "B. Meticulous and demanding in one's standards", 'C. Quick and easy', 'D. Expensive and luxurious'], 'correct_answer': 'B', 'explanation': 'Fastidious refers to being meticulous and having high standards, often to the point of being overly critical or perfectionistic.', 'topic': 'Vocabulary - Antonyms'}
+2025-02-26 13:25:29,591 - millionaire_game - DEBUG - User answer: B, Correct answer: B
+2025-02-26 13:25:29,592 - millionaire_game - INFO - Game session saved to d-20250226-132521.json
+2025-02-26 13:25:33,705 - millionaire_game - INFO - Generating question on topic: Word Formation - Prefixes and Suffixes
+2025-02-26 13:25:33,706 - httpcore.connection - DEBUG - close.started
+2025-02-26 13:25:33,706 - httpcore.connection - DEBUG - close.complete
+2025-02-26 13:25:33,706 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-02-26 13:25:33,707 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028610BE7B60>
+2025-02-26 13:25:33,707 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-26 13:25:33,707 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-26 13:25:33,707 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-26 13:25:33,707 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-26 13:25:33,708 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-26 13:25:41,950 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 26 Feb 2025 09:25:41 GMT'), (b'Content-Length', b'1542')])
+2025-02-26 13:25:41,952 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-02-26 13:25:41,952 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-26 13:25:41,952 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-26 13:25:41,952 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-26 13:25:41,952 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-26 13:25:41,952 - millionaire_game - DEBUG - Raw response from Ollama: Here's a valid JSON response for the multiple-choice question:
+
+{
+  "question": "What is the meaning of the prefix 're-' in words like 'react' and 'resume'?",
+  "options": [
+    "A. Re- means 'again'"
+  ],
+  "correct_answer": "B",
+  "explanation": "The prefix 're-' in words like 'react', 'resume', and others generally denotes something to do with again, anew, or restored."
+}
+
+{
+  "question": "What is the past tense of the verb 'take'?",
+  "options": [
+    "A. Toke",
+    "B. Took"
+  ],
+  "correct_answer": "B",
+  "explanation": "The regular past tense of the verb 'take' is indeed 'took'."
+}
+
+{
+  "question": "What suffix does the word 'author' end with?",
+  "options": [
+    "A. -or"
+  ],
+  "correct_answer": "D",
+  "explanation": "The word 'author' ends in the suffix '-or', which is a common suffix for nouns indicating a person who performs or creates something."
+}
+
+{
+  "question": "What does the prefix 'mis-' mean?",
+  "options": [
+    "A. Mis- means 'more'"
+  ],
+  "correct_answer": "B",
+  "explanation": "The prefix 'mis-' generally denotes 'wrong', 'lacking', or 'reversal'. Examples include words like 'mistake' and 'missing'."
+}
+2025-02-26 13:25:41,952 - millionaire_game - DEBUG - Attempting to parse JSON: {
+  "question": "What is the meaning of the prefix 're-' in words like 'react' and 'resume'?",
+  "options": [
+    "A. Re- means 'again'"
+  ],
+  "correct_answer": "B",
+  "explanation": "The prefix 're-' in words like 'react', 'resume', and others generally denotes something to do with again, anew, or restored."
+}
+
+{
+  "question": "What is the past tense of the verb 'take'?",
+  "options": [
+    "A. Toke",
+    "B. Took"
+  ],
+  "correct_answer": "B",
+  "explanation": "The regular past tense of the verb 'take' is indeed 'took'."
+}
+
+{
+  "question": "What suffix does the word 'author' end with?",
+  "options": [
+    "A. -or"
+  ],
+  "correct_answer": "D",
+  "explanation": "The word 'author' ends in the suffix '-or', which is a common suffix for nouns indicating a person who performs or creates something."
+}
+
+{
+  "question": "What does the prefix 'mis-' mean?",
+  "options": [
+    "A. Mis- means 'more'"
+  ],
+  "correct_answer": "B",
+  "explanation": "The prefix 'mis-' generally denotes 'wrong', 'lacking', or 'reversal'. Examples include words like 'mistake' and 'missing'."
+}
+2025-02-26 13:25:41,952 - millionaire_game - ERROR - Failed to parse JSON from Ollama response: Extra data: line 10 column 1 (char 315)
+2025-02-26 13:25:41,952 - millionaire_game - ERROR - Content causing error: {
+  "question": "What is the meaning of the prefix 're-' in words like 'react' and 'resume'?",
+  "options": [
+    "A. Re- means 'again'"
+  ],
+  "correct_answer": "B",
+  "explanation": "The prefix 're-' in words like 'react', 'resume', and others generally denotes something to do with again, anew, or restored."
+}
+
+{
+  "question": "What is the past tense of the verb 'take'?",
+  "options": [
+    "A. Toke",
+    "B. Took"
+  ],
+  "correct_answer": "B",
+  "explanation": "The regular past tense of the verb 'take' is indeed 'took'."
+}
+
+{
+  "question": "What suffix does the word 'author' end with?",
+  "options": [
+    "A. -or"
+  ],
+  "correct_answer": "D",
+  "explanation": "The word 'author' ends in the suffix '-or', which is a common suffix for nouns indicating a person who performs or creates something."
+}
+
+{
+  "question": "What does the prefix 'mis-' mean?",
+  "options": [
+    "A. Mis- means 'more'"
+  ],
+  "correct_answer": "B",
+  "explanation": "The prefix 'mis-' generally denotes 'wrong', 'lacking', or 'reversal'. Examples include words like 'mistake' and 'missing'."
+}
+2025-02-26 13:25:41,955 - millionaire_game - ERROR - Failed to extract valid JSON from Ollama response: Here's a valid JSON response for the multiple-choice question:
+
+{
+  "question": "What is the meaning of the prefix 're-' in words like 'react' and 'resume'?",
+  "options": [
+    "A. Re- means 'again'"
+  ],
+  "correct_answer": "B",
+  "explanation": "The prefix 're-' in words like 'react', 'resume', and others generally denotes something to do with again, anew, or restored."
+}
+
+{
+  "question": "What is the past tense of the verb 'take'?",
+  "options": [
+    "A. Toke",
+    "B. Took"
+  ],
+  "correct_answer": "B",
+  "explanation": "The regular past tense of the verb 'take' is indeed 'took'."
+}
+
+{
+  "question": "What suffix does the word 'author' end with?",
+  "options": [
+    "A. -or"
+  ],
+  "correct_answer": "D",
+  "explanation": "The word 'author' ends in the suffix '-or', which is a common suffix for nouns indicating a person who performs or creates something."
+}
+
+{
+  "question": "What does the prefix 'mis-' mean?",
+  "options": [
+    "A. Mis- means 'more'"
+  ],
+  "correct_answer": "B",
+  "explanation": "The prefix 'mis-' generally denotes 'wrong', 'lacking', or 'reversal'. Examples include words like 'mistake' and 'missing'."
+}
+2025-02-26 13:25:41,955 - millionaire_game - INFO - Using fallback question for topic: Word Formation - Prefixes and Suffixes
+2025-02-26 13:26:17,673 - millionaire_game - DEBUG - User answer: A, Correct answer: C
+2025-02-26 13:26:17,674 - millionaire_game - INFO - Game session saved to d-20250226-132521.json
+2025-02-26 13:26:40,944 - millionaire_game - INFO - New game started for player: a
+2025-02-26 13:26:40,945 - millionaire_game - INFO - Generating question on topic: Slang - Everyday Usage
+2025-02-26 13:26:40,945 - httpcore.connection - DEBUG - close.started
+2025-02-26 13:26:40,945 - httpcore.connection - DEBUG - close.complete
+2025-02-26 13:26:40,946 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-02-26 13:26:40,947 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028610C0D040>
+2025-02-26 13:26:40,947 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-26 13:26:40,947 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-26 13:26:40,947 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-26 13:26:40,947 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-26 13:26:40,948 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-26 13:26:45,605 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 26 Feb 2025 09:26:45 GMT'), (b'Content-Length', b'1035')])
+2025-02-26 13:26:45,606 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-02-26 13:26:45,606 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-26 13:26:45,606 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-26 13:26:45,606 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-26 13:26:45,606 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-26 13:26:45,606 - millionaire_game - DEBUG - Raw response from Ollama: Here's a valid JSON with the specified details:
+
+```json
+{
+  "question": "What does the informal phrase 'break a leg' actually mean?",
+  "options": [
+    "A. Good luck",
+    "B. Take a rest",
+    "C. Get hurt badly",
+    "D. Be extremely successful"
+  ],
+  "correct_answer": "A",
+  "explanation": "The phrase 'break a leg' is an idiomatic expression used to wish someone good luck, particularly in the context of performing arts or competitive endeavors."
+}
+```
+
+In this question, option A ("Good luck") is the correct answer because it aligns with common usage and cultural practices. Options B, C, and D are incorrect as they do not match the actual meaning or origin of the phrase "break a leg."
+2025-02-26 13:26:45,606 - millionaire_game - DEBUG - Attempting to parse JSON: {
+  "question": "What does the informal phrase 'break a leg' actually mean?",
+  "options": [
+    "A. Good luck",
+    "B. Take a rest",
+    "C. Get hurt badly",
+    "D. Be extremely successful"
+  ],
+  "correct_answer": "A",
+  "explanation": "The phrase 'break a leg' is an idiomatic expression used to wish someone good luck, particularly in the context of performing arts or competitive endeavors."
+}
+2025-02-26 13:26:45,606 - millionaire_game - DEBUG - Normalized question data: {'question': "What does the informal phrase 'break a leg' actually mean?", 'options': ['A. Good luck', 'B. Take a rest', 'C. Get hurt badly', 'D. Be extremely successful'], 'correct_answer': 'A', 'explanation': "The phrase 'break a leg' is an idiomatic expression used to wish someone good luck, particularly in the context of performing arts or competitive endeavors.", 'topic': 'Slang - Everyday Usage'}
+2025-02-26 13:26:49,232 - millionaire_game - DEBUG - User answer: A, Correct answer: A
+2025-02-26 13:26:49,234 - millionaire_game - INFO - Game session saved to a-20250226-132640.json
+2025-02-26 13:26:51,673 - millionaire_game - INFO - Generating question on topic: Idioms - Common Expressions
+2025-02-26 13:26:51,674 - httpcore.connection - DEBUG - close.started
+2025-02-26 13:26:51,674 - httpcore.connection - DEBUG - close.complete
+2025-02-26 13:26:51,674 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-02-26 13:26:51,675 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028610C0E000>
+2025-02-26 13:26:51,675 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-26 13:26:51,675 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-26 13:26:51,675 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-26 13:26:51,676 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-26 13:26:51,676 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-26 13:26:55,635 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 26 Feb 2025 09:26:55 GMT'), (b'Content-Length', b'877')])
+2025-02-26 13:26:55,636 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-02-26 13:26:55,636 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-26 13:26:55,636 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-26 13:26:55,636 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-26 13:26:55,636 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-26 13:26:55,636 - millionaire_game - DEBUG - Raw response from Ollama: Here's a valid JSON response:
+
+{
+  "question": "What does the idiom 'break a leg' actually mean?",
+  "options": [
+    "A. Good luck",
+    "B. Take two steps forward and one step back",
+    "C. To fail miserably",
+    "D. To succeed greatly"
+  ],
+  "correct_answer": "A",
+  "explanation": "The idiom 'break a leg' is a common expression used to wish someone good luck, especially before a performance or challenging situation. Despite its literal meaning, which might seem unfortunate, it's actually a way of expressing support and encouragement."
+}
+2025-02-26 13:26:55,636 - millionaire_game - DEBUG - Attempting to parse JSON: {
+  "question": "What does the idiom 'break a leg' actually mean?",
+  "options": [
+    "A. Good luck",
+    "B. Take two steps forward and one step back",
+    "C. To fail miserably",
+    "D. To succeed greatly"
+  ],
+  "correct_answer": "A",
+  "explanation": "The idiom 'break a leg' is a common expression used to wish someone good luck, especially before a performance or challenging situation. Despite its literal meaning, which might seem unfortunate, it's actually a way of expressing support and encouragement."
+}
+2025-02-26 13:26:55,636 - millionaire_game - DEBUG - Normalized question data: {'question': "What does the idiom 'break a leg' actually mean?", 'options': ['A. Good luck', 'B. Take two steps forward and one step back', 'C. To fail miserably', 'D. To succeed greatly'], 'correct_answer': 'A', 'explanation': "The idiom 'break a leg' is a common expression used to wish someone good luck, especially before a performance or challenging situation. Despite its literal meaning, which might seem unfortunate, it's actually a way of expressing support and encouragement.", 'topic': 'Idioms - Common Expressions'}
+2025-02-26 13:27:04,000 - millionaire_game - DEBUG - User answer: A, Correct answer: A
+2025-02-26 13:27:04,002 - millionaire_game - INFO - Game session saved to a-20250226-132640.json
+2025-02-26 13:27:06,680 - millionaire_game - INFO - Generating question on topic: Idioms - Figurative Language
+2025-02-26 13:27:06,681 - httpcore.connection - DEBUG - close.started
+2025-02-26 13:27:06,681 - httpcore.connection - DEBUG - close.complete
+2025-02-26 13:27:06,681 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-02-26 13:27:06,682 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028610C0EF60>
+2025-02-26 13:27:06,682 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-26 13:27:06,682 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-26 13:27:06,682 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-26 13:27:06,682 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-26 13:27:06,683 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-26 13:27:11,309 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 26 Feb 2025 09:27:11 GMT'), (b'Content-Length', b'1029')])
+2025-02-26 13:27:11,310 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-02-26 13:27:11,310 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-26 13:27:11,310 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-26 13:27:11,310 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-26 13:27:11,311 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-26 13:27:11,311 - millionaire_game - DEBUG - Raw response from Ollama: Here's a multiple-choice question that tests English language proficiency, specifically idiomatic expressions:
+
+{
+  "question": "What does the idiom 'It's raining cats and dogs' literally mean?",
+  "options": [
+    "A. The sky is dark and stormy.",
+    "B. It's a beautiful sunny day.",
+    "C. There are animals falling from the sky.",
+    "D. Nothing is happening."
+  ],
+  "correct_answer": "C",
+  "explanation": "The idiom 'It's raining cats and dogs' does not mean that actual cats and dogs are falling from the sky, but rather it's a metaphor for heavy rain or a storm. The phrase originated in medieval times when heavy rain caused the streets to flood, washing away dead animals and debris."
+}
+2025-02-26 13:27:11,311 - millionaire_game - DEBUG - Attempting to parse JSON: {
+  "question": "What does the idiom 'It's raining cats and dogs' literally mean?",
+  "options": [
+    "A. The sky is dark and stormy.",
+    "B. It's a beautiful sunny day.",
+    "C. There are animals falling from the sky.",
+    "D. Nothing is happening."
+  ],
+  "correct_answer": "C",
+  "explanation": "The idiom 'It's raining cats and dogs' does not mean that actual cats and dogs are falling from the sky, but rather it's a metaphor for heavy rain or a storm. The phrase originated in medieval times when heavy rain caused the streets to flood, washing away dead animals and debris."
+}
+2025-02-26 13:27:11,312 - millionaire_game - DEBUG - Normalized question data: {'question': "What does the idiom 'It's raining cats and dogs' literally mean?", 'options': ['A. The sky is dark and stormy.', "B. It's a beautiful sunny day.", 'C. There are animals falling from the sky.', 'D. Nothing is happening.'], 'correct_answer': 'C', 'explanation': "The idiom 'It's raining cats and dogs' does not mean that actual cats and dogs are falling from the sky, but rather it's a metaphor for heavy rain or a storm. The phrase originated in medieval times when heavy rain caused the streets to flood, washing away dead animals and debris.", 'topic': 'Idioms - Figurative Language'}
+2025-02-26 13:27:21,689 - millionaire_game - DEBUG - User answer: A, Correct answer: C
+2025-02-26 13:27:21,690 - millionaire_game - INFO - Game session saved to a-20250226-132640.json
+2025-02-26 13:28:07,321 - millionaire_game - INFO - New game started for player: e
+2025-02-26 13:28:07,322 - millionaire_game - INFO - Generating question on topic: Grammar - Verb Tenses
+2025-02-26 13:28:07,322 - httpcore.connection - DEBUG - close.started
+2025-02-26 13:28:07,323 - httpcore.connection - DEBUG - close.complete
+2025-02-26 13:28:07,323 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-02-26 13:28:07,324 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028610BE7260>
+2025-02-26 13:28:07,324 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-26 13:28:07,324 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-26 13:28:07,324 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-26 13:28:07,324 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-26 13:28:07,325 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-26 13:28:12,475 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 26 Feb 2025 09:28:12 GMT'), (b'Content-Length', b'1183')])
+2025-02-26 13:28:12,476 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-02-26 13:28:12,476 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-26 13:28:12,476 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-26 13:28:12,476 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-26 13:28:12,476 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-26 13:28:12,476 - millionaire_game - DEBUG - Raw response from Ollama: ```json
+{
+  "question": "Which verb tense is used to describe an action that started and finished in the past?",
+  "options": [
+    "A. Past Perfect",
+    "B. Past Continuous",
+    "C. Simple Past",
+    "D. Present Perfect"
+  ],
+  "correct_answer": "C",
+  "explanation": "The simple past tense is used to describe an action that started and finished in the past. For example, 'I went to the store' uses the simple past tense."
+}
+```
+
+This question tests the contestant's ability to identify the correct verb tense, which is a fundamental concept in English grammar. The options provided include some common but incorrect tenses (Past Perfect and Present Perfect), as well as another correct but less commonly used tense (Past Continuous). This should provide a good challenge for the contestant while still being fair and solvable with the right answer.
+2025-02-26 13:28:12,476 - millionaire_game - DEBUG - Attempting to parse JSON: {
+  "question": "Which verb tense is used to describe an action that started and finished in the past?",
+  "options": [
+    "A. Past Perfect",
+    "B. Past Continuous",
+    "C. Simple Past",
+    "D. Present Perfect"
+  ],
+  "correct_answer": "C",
+  "explanation": "The simple past tense is used to describe an action that started and finished in the past. For example, 'I went to the store' uses the simple past tense."
+}
+2025-02-26 13:28:12,476 - millionaire_game - DEBUG - Normalized question data: {'question': 'Which verb tense is used to describe an action that started and finished in the past?', 'options': ['A. Past Perfect', 'B. Past Continuous', 'C. Simple Past', 'D. Present Perfect'], 'correct_answer': 'C', 'explanation': "The simple past tense is used to describe an action that started and finished in the past. For example, 'I went to the store' uses the simple past tense.", 'topic': 'Grammar - Verb Tenses'}
+2025-02-26 13:28:21,112 - millionaire_game - DEBUG - User answer: A, Correct answer: C
+2025-02-26 13:28:21,114 - millionaire_game - INFO - Game session saved to e-20250226-132807.json
+2025-02-26 13:28:38,328 - millionaire_game - INFO - New game started for player: w
+2025-02-26 13:28:38,328 - millionaire_game - INFO - Generating question on topic: Vocabulary - Homophones
+2025-02-26 13:28:38,329 - httpcore.connection - DEBUG - close.started
+2025-02-26 13:28:38,329 - httpcore.connection - DEBUG - close.complete
+2025-02-26 13:28:38,330 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-02-26 13:28:38,330 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028610BE7D70>
+2025-02-26 13:28:38,330 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-26 13:28:38,331 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-26 13:28:38,331 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-26 13:28:38,331 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-26 13:28:38,332 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-26 13:28:42,679 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 26 Feb 2025 09:28:42 GMT'), (b'Content-Length', b'937')])
+2025-02-26 13:28:42,680 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-02-26 13:28:42,680 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-26 13:28:42,680 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-26 13:28:42,680 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-26 13:28:42,680 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-26 13:28:42,680 - millionaire_game - DEBUG - Raw response from Ollama: Here's a multiple-choice question for 'Who Wants to be a Millionaire' that tests English language proficiency, specifically vocabulary related to homophones.
+
+```
+{
+  "question": "What is the correct spelling of the word that means 'a person who travels through space'?",
+  "options": [
+    "A. Astronome",
+    "B. Astronaut",
+    "C. Astrologer",
+    "D. Astronomer"
+  ],
+  "correct_answer": "B",
+  "explanation": "The word that means 'a person who travels through space' is indeed 'astronaut'. It's a homophone of 'astronomer', which refers to a person who studies celestial objects and phenomena."
+}
+```
+2025-02-26 13:28:42,680 - millionaire_game - DEBUG - Attempting to parse JSON: {
+  "question": "What is the correct spelling of the word that means 'a person who travels through space'?",
+  "options": [
+    "A. Astronome",
+    "B. Astronaut",
+    "C. Astrologer",
+    "D. Astronomer"
+  ],
+  "correct_answer": "B",
+  "explanation": "The word that means 'a person who travels through space' is indeed 'astronaut'. It's a homophone of 'astronomer', which refers to a person who studies celestial objects and phenomena."
+}
+2025-02-26 13:28:42,680 - millionaire_game - DEBUG - Normalized question data: {'question': "What is the correct spelling of the word that means 'a person who travels through space'?", 'options': ['A. Astronome', 'B. Astronaut', 'C. Astrologer', 'D. Astronomer'], 'correct_answer': 'B', 'explanation': "The word that means 'a person who travels through space' is indeed 'astronaut'. It's a homophone of 'astronomer', which refers to a person who studies celestial objects and phenomena.", 'topic': 'Vocabulary - Homophones'}
+2025-02-26 13:28:48,505 - millionaire_game - DEBUG - User answer: B, Correct answer: B
+2025-02-26 13:28:48,505 - millionaire_game - INFO - Game session saved to w-20250226-132838.json
+2025-02-26 13:28:51,225 - millionaire_game - INFO - Generating question on topic: Phrasal Verbs - Common Combinations
+2025-02-26 13:28:51,226 - httpcore.connection - DEBUG - close.started
+2025-02-26 13:28:51,227 - httpcore.connection - DEBUG - close.complete
+2025-02-26 13:28:51,227 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-02-26 13:28:51,227 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028610C0DEE0>
+2025-02-26 13:28:51,227 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-26 13:28:51,228 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-26 13:28:51,228 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-26 13:28:51,228 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-26 13:28:51,229 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-26 13:28:56,036 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 26 Feb 2025 09:28:56 GMT'), (b'Content-Length', b'1056')])
+2025-02-26 13:28:56,037 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-02-26 13:28:56,037 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-26 13:28:56,037 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-26 13:28:56,037 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-26 13:28:56,037 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-26 13:28:56,037 - millionaire_game - DEBUG - Raw response from Ollama: Here's a multiple-choice question on phrasal verbs:
+
+```
+{
+  "question": "What does the phrase 'call off' typically mean?",
+  "options": [
+    "A. To officially cancel an event",
+    "B. To start a conversation with someone",
+    "C. To invite people to a party",
+    "D. To make a complaint about something"
+  ],
+  "correct_answer": "A",
+  "explanation": "The phrase 'call off' typically means to officially cancel or postpone an event, such as a meeting, competition, or celebration."
+}
+```
+
+This question is challenging but fair, and it tests the ability to recognize common phrasal verb combinations. The distractors (options B, C, and D) are plausible but incorrect answers that require critical thinking to eliminate.
+2025-02-26 13:28:56,037 - millionaire_game - DEBUG - Attempting to parse JSON: {
+  "question": "What does the phrase 'call off' typically mean?",
+  "options": [
+    "A. To officially cancel an event",
+    "B. To start a conversation with someone",
+    "C. To invite people to a party",
+    "D. To make a complaint about something"
+  ],
+  "correct_answer": "A",
+  "explanation": "The phrase 'call off' typically means to officially cancel or postpone an event, such as a meeting, competition, or celebration."
+}
+2025-02-26 13:28:56,037 - millionaire_game - DEBUG - Normalized question data: {'question': "What does the phrase 'call off' typically mean?", 'options': ['A. To officially cancel an event', 'B. To start a conversation with someone', 'C. To invite people to a party', 'D. To make a complaint about something'], 'correct_answer': 'A', 'explanation': "The phrase 'call off' typically means to officially cancel or postpone an event, such as a meeting, competition, or celebration.", 'topic': 'Phrasal Verbs - Common Combinations'}
+2025-02-26 13:29:07,551 - millionaire_game - DEBUG - User answer: A, Correct answer: A
+2025-02-26 13:29:07,553 - millionaire_game - INFO - Game session saved to w-20250226-132838.json
+2025-02-26 13:29:11,889 - millionaire_game - INFO - Generating question on topic: Word Formation - Prefixes and Suffixes
+2025-02-26 13:29:11,890 - httpcore.connection - DEBUG - close.started
+2025-02-26 13:29:11,890 - httpcore.connection - DEBUG - close.complete
+2025-02-26 13:29:11,890 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-02-26 13:29:11,891 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028610C0CAA0>
+2025-02-26 13:29:11,891 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-26 13:29:11,891 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-26 13:29:11,891 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-26 13:29:11,892 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-26 13:29:11,892 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-26 13:29:17,803 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 26 Feb 2025 09:29:17 GMT'), (b'Content-Length', b'1265')])
+2025-02-26 13:29:17,804 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-02-26 13:29:17,804 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-26 13:29:17,804 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-26 13:29:17,804 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-26 13:29:17,804 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-26 13:29:17,804 - millionaire_game - DEBUG - Raw response from Ollama: ```json
+{
+  "question": "What is the correct form of the adjective 'friendly' when describing a place or atmosphere?",
+  "options": [
+    "A. Friendly",
+    "B. Friendlier",
+    "C. Friendliest",
+    "D. Freundliness"
+  ],
+  "correct_answer": "B",
+  "explanation": "The suffix '-erly' is used to form the comparative form of an adjective, making 'friendlier' the correct choice. The prefix 'un-' would indicate a decrease in quality, but that's not the case here."
+}
+```
+
+In this question, the distractor options (A and D) are plausible, but incorrect. Option A uses the same base form as the original word, while option D adds an unfamiliar suffix (-ness). Only option B correctly forms the comparative adjective by adding the correct prefix (-erly).
+
+Note: The prefix/suffix pattern used in this question is a common one in English language learning, making it challenging but fair for 'Who Wants to be a Millionaire' contestants.
+2025-02-26 13:29:17,804 - millionaire_game - DEBUG - Attempting to parse JSON: {
+  "question": "What is the correct form of the adjective 'friendly' when describing a place or atmosphere?",
+  "options": [
+    "A. Friendly",
+    "B. Friendlier",
+    "C. Friendliest",
+    "D. Freundliness"
+  ],
+  "correct_answer": "B",
+  "explanation": "The suffix '-erly' is used to form the comparative form of an adjective, making 'friendlier' the correct choice. The prefix 'un-' would indicate a decrease in quality, but that's not the case here."
+}
+2025-02-26 13:29:17,804 - millionaire_game - DEBUG - Normalized question data: {'question': "What is the correct form of the adjective 'friendly' when describing a place or atmosphere?", 'options': ['A. Friendly', 'B. Friendlier', 'C. Friendliest', 'D. Freundliness'], 'correct_answer': 'B', 'explanation': "The suffix '-erly' is used to form the comparative form of an adjective, making 'friendlier' the correct choice. The prefix 'un-' would indicate a decrease in quality, but that's not the case here.", 'topic': 'Word Formation - Prefixes and Suffixes'}
+2025-02-26 13:29:36,368 - millionaire_game - DEBUG - User answer: A, Correct answer: B
+2025-02-26 13:29:36,369 - millionaire_game - INFO - Game session saved to w-20250226-132838.json
+2025-02-26 13:30:07,664 - millionaire_game - INFO - New game started for player: ew
+2025-02-26 13:30:07,664 - millionaire_game - INFO - Generating question on topic: Vocabulary - Homophones
+2025-02-26 13:30:07,665 - httpcore.connection - DEBUG - close.started
+2025-02-26 13:30:07,665 - httpcore.connection - DEBUG - close.complete
+2025-02-26 13:30:07,666 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-02-26 13:30:07,667 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028610C0F7A0>
+2025-02-26 13:30:07,667 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-26 13:30:07,667 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-26 13:30:07,667 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-26 13:30:07,667 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-26 13:30:07,668 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-26 13:30:11,877 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 26 Feb 2025 09:30:11 GMT'), (b'Content-Length', b'853')])
+2025-02-26 13:30:11,878 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-02-26 13:30:11,878 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-26 13:30:11,878 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-26 13:30:11,879 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-26 13:30:11,879 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-26 13:30:11,879 - millionaire_game - DEBUG - Raw response from Ollama: Here's your multiple-choice question:
+
+{
+  "question": "What does the phrase 'fair fare' typically refer to?",
+  "options": [
+    "A. A type of flower",
+    "B. The price or cost of something",
+    "C. A standard or normal level",
+    "D. The quality of a performance"
+  ],
+  "correct_answer": "B",
+  "explanation": "The phrase 'fair fare' is an example of a homophone, where 'fair' and 'fare' are pronounced the same way but have different meanings. In this context, 'fair fare' refers to the price or cost of something."
+}
+2025-02-26 13:30:11,880 - millionaire_game - DEBUG - Attempting to parse JSON: {
+  "question": "What does the phrase 'fair fare' typically refer to?",
+  "options": [
+    "A. A type of flower",
+    "B. The price or cost of something",
+    "C. A standard or normal level",
+    "D. The quality of a performance"
+  ],
+  "correct_answer": "B",
+  "explanation": "The phrase 'fair fare' is an example of a homophone, where 'fair' and 'fare' are pronounced the same way but have different meanings. In this context, 'fair fare' refers to the price or cost of something."
+}
+2025-02-26 13:30:11,880 - millionaire_game - DEBUG - Normalized question data: {'question': "What does the phrase 'fair fare' typically refer to?", 'options': ['A. A type of flower', 'B. The price or cost of something', 'C. A standard or normal level', 'D. The quality of a performance'], 'correct_answer': 'B', 'explanation': "The phrase 'fair fare' is an example of a homophone, where 'fair' and 'fare' are pronounced the same way but have different meanings. In this context, 'fair fare' refers to the price or cost of something.", 'topic': 'Vocabulary - Homophones'}
+2025-02-26 13:30:28,929 - millionaire_game - DEBUG - User answer: B, Correct answer: B
+2025-02-26 13:30:28,930 - millionaire_game - INFO - Game session saved to ew-20250226-133007.json
+2025-02-26 13:30:46,544 - millionaire_game - INFO - Generating question on topic: Idioms - Figurative Language
+2025-02-26 13:30:46,544 - httpcore.connection - DEBUG - close.started
+2025-02-26 13:30:46,544 - httpcore.connection - DEBUG - close.complete
+2025-02-26 13:30:46,547 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-02-26 13:30:46,548 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028610C186B0>
+2025-02-26 13:30:46,548 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-26 13:30:46,549 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-26 13:30:46,549 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-26 13:30:46,550 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-26 13:30:46,550 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-26 13:30:51,921 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 26 Feb 2025 09:30:51 GMT'), (b'Content-Length', b'1154')])
+2025-02-26 13:30:51,922 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-02-26 13:30:51,922 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-26 13:30:51,922 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-26 13:30:51,922 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-26 13:30:51,922 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-26 13:30:51,922 - millionaire_game - DEBUG - Raw response from Ollama: Here's a multiple-choice question for 'Who Wants to be a Millionaire' that tests English language proficiency, focusing on idioms and figurative language:
+
+```json
+{
+  "question": "What does the idiom 'Bite off more than you can chew' mean?",
+  "options": [
+    "A. To take on a task that is too difficult",
+    "B. To eat a larger portion of food than usual",
+    "C. To speak in a louder voice than others around you",
+    "D. To wear clothing that is not suitable for the weather"
+  ],
+  "correct_answer": "A",
+  "explanation": "The idiom 'Bite off more than you can chew' means to take on more responsibility or tasks than one is capable of handling."
+}
+```
+
+In this question, option A provides the correct meaning of the idiom, while options B, C, and D provide distractors that are unrelated to the idiom's meaning.
+2025-02-26 13:30:51,922 - millionaire_game - DEBUG - Attempting to parse JSON: {
+  "question": "What does the idiom 'Bite off more than you can chew' mean?",
+  "options": [
+    "A. To take on a task that is too difficult",
+    "B. To eat a larger portion of food than usual",
+    "C. To speak in a louder voice than others around you",
+    "D. To wear clothing that is not suitable for the weather"
+  ],
+  "correct_answer": "A",
+  "explanation": "The idiom 'Bite off more than you can chew' means to take on more responsibility or tasks than one is capable of handling."
+}
+2025-02-26 13:30:51,922 - millionaire_game - DEBUG - Normalized question data: {'question': "What does the idiom 'Bite off more than you can chew' mean?", 'options': ['A. To take on a task that is too difficult', 'B. To eat a larger portion of food than usual', 'C. To speak in a louder voice than others around you', 'D. To wear clothing that is not suitable for the weather'], 'correct_answer': 'A', 'explanation': "The idiom 'Bite off more than you can chew' means to take on more responsibility or tasks than one is capable of handling.", 'topic': 'Idioms - Figurative Language'}
+2025-02-26 13:30:58,802 - millionaire_game - DEBUG - User answer: A, Correct answer: A
+2025-02-26 13:30:58,803 - millionaire_game - INFO - Game session saved to ew-20250226-133007.json
+2025-02-26 13:31:02,145 - millionaire_game - INFO - Generating question on topic: Phrasal Verbs - Common Combinations
+2025-02-26 13:31:02,146 - httpcore.connection - DEBUG - close.started
+2025-02-26 13:31:02,146 - httpcore.connection - DEBUG - close.complete
+2025-02-26 13:31:02,146 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-02-26 13:31:02,147 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028610C19790>
+2025-02-26 13:31:02,147 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-26 13:31:02,147 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-26 13:31:02,147 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-26 13:31:02,147 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-26 13:31:02,148 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-26 13:31:06,365 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 26 Feb 2025 09:31:06 GMT'), (b'Content-Length', b'925')])
+2025-02-26 13:31:06,365 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-02-26 13:31:06,366 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-26 13:31:06,366 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-26 13:31:06,366 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-26 13:31:06,366 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-26 13:31:06,366 - millionaire_game - DEBUG - Raw response from Ollama: Here's a multiple-choice question for 'Who Wants to be a Millionaire' that tests English language proficiency:
+
+{
+  "question": "What does the phrasal verb combination 'pick up on' mean?",
+  "options": [
+    "A. To ignore or dismiss something",
+    "B. To understand or notice something",
+    "C. To take physical control of something",
+    "D. To put down or release something"
+  ],
+  "correct_answer": "B",
+  "explanation": "The phrasal verb combination 'pick up on' means to notice, recognize, or become aware of something. For example: \"I picked up on the fact that she was nervous\"."
+}
+2025-02-26 13:31:06,366 - millionaire_game - DEBUG - Attempting to parse JSON: {
+  "question": "What does the phrasal verb combination 'pick up on' mean?",
+  "options": [
+    "A. To ignore or dismiss something",
+    "B. To understand or notice something",
+    "C. To take physical control of something",
+    "D. To put down or release something"
+  ],
+  "correct_answer": "B",
+  "explanation": "The phrasal verb combination 'pick up on' means to notice, recognize, or become aware of something. For example: \"I picked up on the fact that she was nervous\"."
+}
+2025-02-26 13:31:06,366 - millionaire_game - DEBUG - Normalized question data: {'question': "What does the phrasal verb combination 'pick up on' mean?", 'options': ['A. To ignore or dismiss something', 'B. To understand or notice something', 'C. To take physical control of something', 'D. To put down or release something'], 'correct_answer': 'B', 'explanation': 'The phrasal verb combination \'pick up on\' means to notice, recognize, or become aware of something. For example: "I picked up on the fact that she was nervous".', 'topic': 'Phrasal Verbs - Common Combinations'}
+2025-02-26 13:31:16,128 - millionaire_game - DEBUG - User answer: B, Correct answer: B
+2025-02-26 13:31:16,130 - millionaire_game - INFO - Game session saved to ew-20250226-133007.json
+2025-02-26 13:31:20,617 - millionaire_game - INFO - Generating question on topic: Idioms - Common Expressions
+2025-02-26 13:31:20,617 - httpcore.connection - DEBUG - close.started
+2025-02-26 13:31:20,617 - httpcore.connection - DEBUG - close.complete
+2025-02-26 13:31:20,618 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-02-26 13:31:20,619 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028610C1A780>
+2025-02-26 13:31:20,619 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-26 13:31:20,620 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-26 13:31:20,620 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-26 13:31:20,621 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-26 13:31:20,621 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-26 13:31:24,925 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 26 Feb 2025 09:31:24 GMT'), (b'Content-Length', b'970')])
+2025-02-26 13:31:24,925 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-02-26 13:31:24,925 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-26 13:31:24,925 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-26 13:31:24,925 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-26 13:31:24,927 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-26 13:31:24,927 - millionaire_game - DEBUG - Raw response from Ollama: Here's a multiple-choice question that tests English language proficiency:
+
+```
+{
+  "question": "What does the idiom 'break a leg' actually mean?",
+  "options": [
+    "A. Good luck",
+    "B. You will definitely succeed",
+    "C. To injure oneself seriously before a performance",
+    "D. To get injured during the course of your career"
+  ],
+  "correct_answer": "C",
+  "explanation": "The phrase 'break a leg' is actually a good luck wish, particularly in theater and performing arts contexts. Despite its literal meaning, it's believed to have originated from the superstition that it's bad luck to wish someone 'good luck' directly."
+}
+```
+2025-02-26 13:31:24,927 - millionaire_game - DEBUG - Attempting to parse JSON: {
+  "question": "What does the idiom 'break a leg' actually mean?",
+  "options": [
+    "A. Good luck",
+    "B. You will definitely succeed",
+    "C. To injure oneself seriously before a performance",
+    "D. To get injured during the course of your career"
+  ],
+  "correct_answer": "C",
+  "explanation": "The phrase 'break a leg' is actually a good luck wish, particularly in theater and performing arts contexts. Despite its literal meaning, it's believed to have originated from the superstition that it's bad luck to wish someone 'good luck' directly."
+}
+2025-02-26 13:31:24,927 - millionaire_game - DEBUG - Normalized question data: {'question': "What does the idiom 'break a leg' actually mean?", 'options': ['A. Good luck', 'B. You will definitely succeed', 'C. To injure oneself seriously before a performance', 'D. To get injured during the course of your career'], 'correct_answer': 'C', 'explanation': "The phrase 'break a leg' is actually a good luck wish, particularly in theater and performing arts contexts. Despite its literal meaning, it's believed to have originated from the superstition that it's bad luck to wish someone 'good luck' directly.", 'topic': 'Idioms - Common Expressions'}
+2025-02-26 13:31:53,616 - millionaire_game - DEBUG - User answer: C, Correct answer: C
+2025-02-26 13:31:53,616 - millionaire_game - INFO - Game session saved to ew-20250226-133007.json
+2025-02-26 13:32:02,449 - millionaire_game - INFO - Generating question on topic: Grammar - Verb Tenses
+2025-02-26 13:32:02,450 - httpcore.connection - DEBUG - close.started
+2025-02-26 13:32:02,450 - httpcore.connection - DEBUG - close.complete
+2025-02-26 13:32:02,450 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-02-26 13:32:02,451 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028610BE6EA0>
+2025-02-26 13:32:02,451 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-26 13:32:02,451 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-26 13:32:02,451 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-26 13:32:02,451 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-26 13:32:02,452 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-26 13:32:07,538 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 26 Feb 2025 09:32:07 GMT'), (b'Content-Length', b'1164')])
+2025-02-26 13:32:07,539 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-02-26 13:32:07,539 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-26 13:32:07,539 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-26 13:32:07,539 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-26 13:32:07,539 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-26 13:32:07,539 - millionaire_game - DEBUG - Raw response from Ollama: ```json
+{
+  "question": "Which verb tense is used to describe an action that started and finished in the past, but has a future connection?",
+  "options": [
+    "A. Past Perfect",
+    "B. Present Continuous",
+    "C. Past Simple",
+    "D. Future Perfect"
+  ],
+  "correct_answer": "C",
+  "explanation": "The past simple tense is used to describe an action that started and finished in the past, but does not have a future connection. It is often used in simple sentences where the action has a clear beginning and end."
+}
+```
+
+This question tests the player's understanding of verb tenses and their ability to identify the correct form for a specific context. The options include two distractors (Past Perfect and Future Perfect) that are less likely to be chosen, as well as Present Continuous, which is not relevant to this context.
+2025-02-26 13:32:07,539 - millionaire_game - DEBUG - Attempting to parse JSON: {
+  "question": "Which verb tense is used to describe an action that started and finished in the past, but has a future connection?",
+  "options": [
+    "A. Past Perfect",
+    "B. Present Continuous",
+    "C. Past Simple",
+    "D. Future Perfect"
+  ],
+  "correct_answer": "C",
+  "explanation": "The past simple tense is used to describe an action that started and finished in the past, but does not have a future connection. It is often used in simple sentences where the action has a clear beginning and end."
+}
+2025-02-26 13:32:07,539 - millionaire_game - DEBUG - Normalized question data: {'question': 'Which verb tense is used to describe an action that started and finished in the past, but has a future connection?', 'options': ['A. Past Perfect', 'B. Present Continuous', 'C. Past Simple', 'D. Future Perfect'], 'correct_answer': 'C', 'explanation': 'The past simple tense is used to describe an action that started and finished in the past, but does not have a future connection. It is often used in simple sentences where the action has a clear beginning and end.', 'topic': 'Grammar - Verb Tenses'}
+2025-02-26 13:32:24,881 - millionaire_game - DEBUG - User answer: A, Correct answer: C
+2025-02-26 13:32:24,882 - millionaire_game - INFO - Game session saved to ew-20250226-133007.json

@@ -1,0 +1,30 @@
+{
+    "player_name": "e",
+    "timestamp": "20250226-132807",
+    "model_used": "llama3.2",
+    "final_money": 0,
+    "questions_asked": [
+        {
+            "question_num": 1,
+            "question": "Which verb tense is used to describe an action that started and finished in the past?",
+            "options": [
+                "A. Past Perfect",
+                "B. Past Continuous",
+                "C. Simple Past",
+                "D. Present Perfect"
+            ],
+            "user_answer": "A",
+            "correct_answer": "C",
+            "explanation": "The simple past tense is used to describe an action that started and finished in the past. For example, 'I went to the store' uses the simple past tense.",
+            "topic": "Grammar - Verb Tenses",
+            "amount_won": 0
+        }
+    ],
+    "game_over": true,
+    "used_topics": [
+        "Grammar - Verb Tenses"
+    ],
+    "used_questions": [
+        "Which verb tense is used to describe an action that started and finished in the past?"
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "player_name": "d",
+    "timestamp": "20250226-132521",
+    "model_used": "llama3.2",
+    "final_money": 0,
+    "questions_asked": [
+        {
+            "question_num": 1,
+            "question": "What does the word 'fastidious' mean?",
+            "options": [
+                "A. Fast and furious",
+                "B. Meticulous and demanding in one's standards",
+                "C. Quick and easy",
+                "D. Expensive and luxurious"
+            ],
+            "user_answer": "B",
+            "correct_answer": "B",
+            "explanation": "Fastidious refers to being meticulous and having high standards, often to the point of being overly critical or perfectionistic.",
+            "topic": "Vocabulary - Antonyms",
+            "amount_won": 100
+        },
+        {
+            "question_num": 2,
+            "question": "Which sentence uses the correct form of the verb?",
+            "options": [
+                "A. Each of the students have completed the assignment.",
+                "B. Neither of my brothers are going to the party.",
+                "C. The team of doctors has arrived at the hospital.",
+                "D. The staff were divided on the issue."
+            ],
+            "user_answer": "A",
+            "correct_answer": "C",
+            "explanation": "In the sentence 'The team of doctors has arrived at the hospital,' the singular subject 'team' correctly takes the singular verb 'has'. 'Team' is a collective noun that's treated as singular when referring to the group as a single unit.",
+            "topic": "Word Formation - Prefixes and Suffixes",
+            "amount_won": 0
+        }
+    ],
+    "game_over": true,
+    "used_topics": [
+        "Vocabulary - Antonyms",
+        "Word Formation - Prefixes and Suffixes"
+    ],
+    "used_questions": [
+        "Which sentence uses the correct form of the verb?",
+        "What does the word 'fastidious' mean?"
+    ]
+}
